@@ -1,0 +1,30 @@
+{
+  "day": 5, "title": "Accusative, ein/kein, food", "group": 5,
+  "grammar": [
+    {"h": "Accusative: only masculine changes", "t": "der → den · ein → einen · mein → meinen · kein → keinen\ndie, das and plural stay the same.\nIch esse einen Apfel. Ich trinke den Tee."},
+    {"h": "kein / keine", "t": "kein negates a noun that has ein or no article: Ich habe keinen Hund. Wir haben keine Zeit."},
+    {"h": "gern / lieber", "t": "Ich esse gern Reis. Ich trinke nicht gern Kaffee. Ich esse lieber Hähnchen."}
+  ],
+  "dialogue": [
+    "Kellner: Guten Tag. Was möchten Sie trinken?",
+    "Gast: Ich möchte einen Tee, bitte. Und ich esse eine Suppe und ein Brötchen.",
+    "Kellner: Gern. Möchten Sie auch einen Salat?",
+    "Gast: Nein, danke. Ich habe keinen Hunger mehr. Die Rechnung, bitte."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Ich esse ___ Apfel. (ein)", "a": ["einen"]},
+    {"t": "fill", "q": "Ich trinke ___ Tee. (ein)", "a": ["einen"]},
+    {"t": "fill", "q": "Ich möchte ___ Brot. (ein)", "a": ["ein"]},
+    {"t": "fill", "q": "Ich nehme ___ Suppe. (ein)", "a": ["eine"]},
+    {"t": "fill", "q": "Wir kaufen ___ Käse. (der Käse, definite)", "a": ["den"]},
+    {"t": "fill", "q": "Ich habe ___ Hund. (kein)", "a": ["keinen"]},
+    {"t": "fill", "q": "Ich esse ___ Fleisch. (kein)", "a": ["kein"]},
+    {"t": "fill", "q": "Ich trinke ___ Kaffee. (kein)", "a": ["keinen"]},
+    {"t": "fill", "q": "Er hat ___ Schwester. (kein)", "a": ["keine"]},
+    {"t": "mc", "q": "Which sentence is correct?", "o": ["Ich trinke ein Tee.", "Ich trinke einen Tee.", "Ich trinke eine Tee.", "Ich trinke einem Tee."], "a": 1},
+    {"t": "order", "q": "I would like a coffee, please.", "a": ["Ich möchte bitte einen Kaffee.", "Ich möchte einen Kaffee bitte."]},
+    {"t": "order", "q": "Do you have water? (formal)", "a": ["Haben Sie Wasser?"]},
+    {"t": "order", "q": "I am hungry.", "a": ["Ich habe Hunger."]},
+    {"t": "order", "q": "The bill, please.", "a": ["Die Rechnung, bitte."]}
+  ]
+}

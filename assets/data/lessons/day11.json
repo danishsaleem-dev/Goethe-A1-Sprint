@@ -1,0 +1,28 @@
+{
+  "day": 11, "title": "Imperative, directions, transport", "group": 11,
+  "grammar": [
+    {"h": "Imperative (Sie)", "t": "The verb comes first, then Sie: Gehen Sie geradeaus! Nehmen Sie die U-Bahn! Warten Sie bitte!\ndu-form: Geh! Komm! · ihr-form: Geht! Kommt!"},
+    {"h": "Prepositions of direction", "t": "nach Berlin (cities, countries) · zum Arzt, zur Schule · in die Stadt · mit dem Bus, mit der U-Bahn · zu Fuß\naus Pakistan (origin), in München (location)."}
+  ],
+  "dialogue": [
+    "A: Entschuldigung, wie komme ich zum Bahnhof?",
+    "B: Gehen Sie geradeaus, dann an der Ampel links. Der Bahnhof ist rechts.",
+    "A: Ist das weit?",
+    "B: Nein, nur fünf Minuten zu Fuß. Oder nehmen Sie den Bus Nummer zwölf."
+  ],
+  "questions": [
+    {"t": "order", "q": "Go straight ahead. (formal)", "a": ["Gehen Sie geradeaus!"]},
+    {"t": "order", "q": "Take the underground. (formal)", "a": ["Nehmen Sie die U-Bahn!"]},
+    {"t": "order", "q": "Please wait. (formal)", "a": ["Warten Sie bitte!"]},
+    {"t": "fill", "q": "Ich fahre ___ dem Bus.", "a": ["mit"]},
+    {"t": "fill", "q": "Ich gehe ___ Arzt. (zum / zur)", "a": ["zum"]},
+    {"t": "fill", "q": "Ich fahre ___ Berlin.", "a": ["nach"]},
+    {"t": "fill", "q": "Er wohnt ___ München.", "a": ["in"]},
+    {"t": "fill", "q": "Ich komme ___ Pakistan.", "a": ["aus"]},
+    {"t": "mc", "c": "Gehen Sie geradeaus, dann die zweite Straße links. Die Post ist rechts neben der Bank.", "q": "Wo ist die Post?", "o": ["Links", "Rechts neben der Bank", "Geradeaus", "Hinter dem Bahnhof"], "a": 1},
+    {"t": "mc", "c": "Gehen Sie geradeaus, dann die zweite Straße links. Die Post ist rechts neben der Bank.", "q": "Was macht man zuerst?", "o": ["Links gehen", "Geradeaus gehen", "Bus nehmen", "Fragen"], "a": 1},
+    {"t": "mc", "c": "Zug nach Hamburg, 10:15 Uhr, Gleis 4. Zug nach Köln, 10:40 Uhr, Gleis 7.", "q": "Von welchem Gleis fährt der Zug nach Köln?", "o": ["Gleis 4", "Gleis 7", "Gleis 10", "Gleis 40"], "a": 1},
+    {"t": "mc", "c": "Zug nach Hamburg, 10:15 Uhr, Gleis 4. Zug nach Köln, 10:40 Uhr, Gleis 7.", "q": "Wann fährt der Zug nach Hamburg?", "o": ["10:15", "10:40", "4:00", "7:00"], "a": 0},
+    {"t": "mc", "q": "links means", "o": ["right", "left", "straight ahead", "near"], "a": 1}
+  ]
+}

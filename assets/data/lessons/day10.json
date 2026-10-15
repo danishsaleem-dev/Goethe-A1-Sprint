@@ -1,0 +1,26 @@
+{
+  "day": 10, "title": "Home, es gibt, location", "group": 10,
+  "grammar": [
+    {"h": "Where? → dative", "t": "after in, auf, neben, vor, hinter, an: masculine and neuter → dem, feminine → der, plural → den.\nDas Buch liegt auf dem Tisch. Die Lampe steht neben der Tür. Wir sind in der Küche.\nin dem = im, an dem = am"},
+    {"h": "es gibt + accusative", "t": "Im Wohnzimmer gibt es einen Tisch und ein Sofa. In der Küche gibt es einen Kühlschrank."}
+  ],
+  "dialogue": [
+    "Meine Wohnung hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine Küche.",
+    "Es gibt auch ein Bad und einen Balkon.",
+    "Im Wohnzimmer gibt es ein Sofa und einen Tisch."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Das Buch liegt auf ___ Tisch.", "a": ["dem"]},
+    {"t": "fill", "q": "Die Lampe steht neben ___ Sofa.", "a": ["dem"]},
+    {"t": "fill", "q": "Ich bin in ___ Küche.", "a": ["der"]},
+    {"t": "fill", "q": "Das Auto steht vor ___ Haus.", "a": ["dem"]},
+    {"t": "fill", "q": "Die Kinder sind in ___ Schule.", "a": ["der"]},
+    {"t": "fill", "q": "Im Schlafzimmer gibt es ___ Bett. (ein)", "a": ["ein"]},
+    {"t": "fill", "q": "In der Küche gibt es ___ Kühlschrank. (ein)", "a": ["einen"]},
+    {"t": "fill", "q": "Im Bad gibt es ___ Dusche. (ein)", "a": ["eine"]},
+    {"t": "mc", "q": "im = ?", "o": ["in dem", "in der", "in den", "in das"], "a": 0},
+    {"t": "mc", "c": "2-Zimmer-Wohnung, 55 m², 450 € warm, Balkon, ab 1. November, Tel. 0151 23 45 67.", "q": "Wie viele Zimmer hat die Wohnung?", "o": ["eins", "zwei", "drei", "fünf"], "a": 1},
+    {"t": "mc", "c": "2-Zimmer-Wohnung, 55 m², 450 € warm, Balkon, ab 1. November, Tel. 0151 23 45 67.", "q": "Wie viel kostet die Wohnung?", "o": ["55 €", "145 €", "450 €", "550 €"], "a": 2},
+    {"t": "mc", "c": "2-Zimmer-Wohnung, 55 m², 450 € warm, Balkon, ab 1. November, Tel. 0151 23 45 67.", "q": "Ab wann ist sie frei?", "o": ["Ab 1. Oktober", "Ab 1. November", "Ab 1. Dezember", "Sofort"], "a": 1}
+  ]
+}

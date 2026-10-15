@@ -1,0 +1,50 @@
+{
+  "teil1": {
+    "fields": [
+      {"k": "Name", "hint": "Ali Khan"},
+      {"k": "Alter", "hint": "25"},
+      {"k": "Land", "hint": "Pakistan"},
+      {"k": "Wohnort", "hint": "Lahore"},
+      {"k": "Sprachen", "hint": "Urdu, Englisch und ein bisschen Deutsch"},
+      {"k": "Beruf", "hint": "Student"},
+      {"k": "Hobby", "hint": "Cricket"}
+    ],
+    "template": "Guten Tag! Mein Name ist {Name}. Ich bin {Alter} Jahre alt. Ich komme aus {Land}. Ich wohne in {Wohnort}. Ich spreche {Sprachen}. Ich bin {Beruf}. Mein Hobby ist {Hobby}.",
+    "stuck": ["Wie bitte?", "Können Sie das bitte wiederholen?", "Langsamer, bitte.", "Ich verstehe das nicht.", "Wie sagt man das auf Deutsch?"]
+  },
+  "teil2": [
+    {"cue": "Frühstück", "q": "Was isst du zum Frühstück?", "a": "Ich esse Brot, Käse und Eier."},
+    {"cue": "Hobby", "q": "Was ist dein Hobby?", "a": "Mein Hobby ist Fußball. Ich spiele jeden Samstag."},
+    {"cue": "Wohnort", "q": "Wo wohnst du?", "a": "Ich wohne in Lahore, in einer Wohnung."},
+    {"cue": "Geschwister", "q": "Hast du Geschwister?", "a": "Ja, ich habe einen Bruder und eine Schwester."},
+    {"cue": "Beruf", "q": "Was bist du von Beruf?", "a": "Ich bin Lehrer. Ich arbeite in einer Schule."},
+    {"cue": "Geburtstag", "q": "Wann hast du Geburtstag?", "a": "Ich habe am vierzehnten Oktober Geburtstag."},
+    {"cue": "Telefonnummer", "q": "Wie ist deine Telefonnummer?", "a": "Meine Nummer ist null drei null null, eins zwei drei, vier fünf sechs sieben."},
+    {"cue": "Auto", "q": "Hast du ein Auto?", "a": "Nein, ich habe kein Auto. Ich fahre mit dem Bus."},
+    {"cue": "Obst", "q": "Isst du gern Obst?", "a": "Ja, ich esse gern Äpfel und Bananen."},
+    {"cue": "Urlaub", "q": "Wohin fährst du im Urlaub?", "a": "Ich fahre nach Hunza. Dort ist es schön."},
+    {"cue": "Wetter", "q": "Wie ist das Wetter heute?", "a": "Es ist warm und sonnig."},
+    {"cue": "Sprachen", "q": "Welche Sprachen sprichst du?", "a": "Ich spreche Urdu, Englisch und Deutsch."},
+    {"cue": "Arbeit", "q": "Wann beginnt deine Arbeit?", "a": "Sie beginnt um acht Uhr und endet um sechzehn Uhr."},
+    {"cue": "Familie", "q": "Wie viele Personen sind in deiner Familie?", "a": "Wir sind sechs: meine Eltern, drei Geschwister und ich."}
+  ],
+  "teil3": [
+    {"cue": "Fenster", "q": "Können Sie bitte das Fenster aufmachen?", "a": "Ja, gern."},
+    {"cue": "Stift", "q": "Kannst du mir bitte einen Stift leihen?", "a": "Ja, hier bitte."},
+    {"cue": "Wasser", "q": "Können Sie mir bitte ein Glas Wasser bringen?", "a": "Ja, natürlich."},
+    {"cue": "Tür", "q": "Können Sie bitte die Tür zumachen?", "a": "Ja, kein Problem."},
+    {"cue": "Telefonnummer", "q": "Können Sie mir bitte Ihre Telefonnummer sagen?", "a": "Ja, sie ist null eins sieben sechs, zwei drei vier fünf."},
+    {"cue": "Uhr", "q": "Wie spät ist es, bitte?", "a": "Es ist halb vier."},
+    {"cue": "Hilfe", "q": "Kannst du mir bitte bei den Hausaufgaben helfen?", "a": "Ja, gern. Wann?"},
+    {"cue": "Salz", "q": "Können Sie mir bitte das Salz geben?", "a": "Hier, bitte."},
+    {"cue": "Foto", "q": "Können Sie bitte ein Foto von uns machen?", "a": "Ja, gern."},
+    {"cue": "Langsam", "q": "Können Sie bitte langsamer sprechen?", "a": "Natürlich, kein Problem."}
+  ],
+  "pron": [
+    "ch after a, o, u, au is a back sound (Buch). After e, i it is a soft sound (ich).",
+    "w sounds like English v (Wasser). v sounds like f (Vater).",
+    "z is ts (Zeit). s before a vowel is like z (Sonne).",
+    "ei = eye (mein). ie = long ee (Bier).",
+    "sch = sh. st and sp at the start of a word = sht and shp (Stadt, spielen)."
+  ]
+}

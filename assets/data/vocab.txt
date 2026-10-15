@@ -1,0 +1,341 @@
+# 1 | Greetings & personal data
+Hallo|hello|ہیلو
+Guten Morgen|good morning|صبح بخیر
+Guten Tag|good day|دن بخیر
+Guten Abend|good evening|شام بخیر
+Gute Nacht|good night|شب بخیر
+Tschüss|bye (informal)|اللہ حافظ
+Auf Wiedersehen|goodbye (formal)|خدا حافظ
+bitte|please / you're welcome|مہربانی / خوش آمدید
+danke|thank you|شکریہ
+Entschuldigung|excuse me / sorry|معذرت
+ja|yes|ہاں
+nein|no|نہیں
+der Name|name|نام
+der Vorname|first name|پہلا نام
+der Nachname|last name|خاندانی نام
+die Adresse|address|پتہ
+die Telefonnummer|phone number|فون نمبر
+die E-Mail|email|ای میل
+das Alter|age|عمر
+das Land|country|ملک
+die Stadt|city|شہر
+verheiratet|married|شادی شدہ
+ledig|single|غیر شادی شدہ
+wer?|who?|کون؟
+was?|what?|کیا؟
+wo?|where?|کہاں؟
+woher?|where from?|کہاں سے؟
+wohin?|where to?|کہاں کو؟
+wann?|when?|کب؟
+warum?|why?|کیوں؟
+wie?|how?|کیسے؟
+wie viel?|how much?|کتنا؟
+# 2 | Numbers
+null|0 (zero)|صفر
+eins|1 (one)|ایک
+zwei|2 (two)|دو
+drei|3 (three)|تین
+vier|4 (four)|چار
+fünf|5 (five)|پانچ
+sechs|6 (six)|چھ
+sieben|7 (seven)|سات
+acht|8 (eight)|آٹھ
+neun|9 (nine)|نو
+zehn|10 (ten)|دس
+elf|11 (eleven)|گیارہ
+zwölf|12 (twelve)|بارہ
+dreizehn|13 (thirteen)|تیرہ
+vierzehn|14 (fourteen)|چودہ
+fünfzehn|15 (fifteen)|پندرہ
+sechzehn|16 (sixteen)|سولہ
+siebzehn|17 (seventeen)|سترہ
+achtzehn|18 (eighteen)|اٹھارہ
+neunzehn|19 (nineteen)|انیس
+zwanzig|20 (twenty)|بیس
+dreißig|30 (thirty)|تیس
+vierzig|40 (forty)|چالیس
+fünfzig|50 (fifty)|پچاس
+sechzig|60 (sixty)|ساٹھ
+siebzig|70 (seventy)|ستر
+achtzig|80 (eighty)|اسی
+neunzig|90 (ninety)|نوے
+hundert|100 (hundred)|سو
+# 3 | Countries, languages, jobs
+(das) Pakistan|Pakistan|پاکستان
+(das) Deutschland|Germany|جرمنی
+(das) Indien|India|بھارت
+(die) Türkei|Turkey|ترکی
+(das) England|England|انگلینڈ
+(die) USA|USA|امریکہ
+(das) China|China|چین
+Deutsch|German|جرمن (زبان)
+Englisch|English|انگریزی
+Arabisch|Arabic|عربی
+der Lehrer / die Lehrerin|teacher|استاد / استانی
+der Arzt / die Ärztin|doctor|ڈاکٹر
+der Student / die Studentin|student|طالب علم
+der Ingenieur / die Ingenieurin|engineer|انجینئر
+der Fahrer / die Fahrerin|driver|ڈرائیور
+der Verkäufer / die Verkäuferin|salesperson|سیلز مین
+der Koch / die Köchin|cook|باورچی
+der Arbeiter / die Arbeiterin|worker|مزدور / کارکن
+die Arbeit|work|کام
+arbeitslos|unemployed|بے روزگار
+# 4 | Family & people
+die Familie|family|خاندان
+der Vater|father|والد
+die Mutter|mother|ماں
+die Eltern (pl.)|parents|والدین
+der Bruder|brother|بھائی
+die Schwester|sister|بہن
+der Sohn|son|بیٹا
+die Tochter|daughter|بیٹی
+das Kind / die Kinder|child / children|بچہ / بچے
+der Mann|man / husband|آدمی / شوہر
+die Frau|woman / wife|عورت / بیوی
+der Großvater|grandfather|دادا / نانا
+die Großmutter|grandmother|دادی / نانی
+der Onkel|uncle|چچا / ماموں
+die Tante|aunt|پھوپھی / خالہ
+der Freund / die Freundin|friend|دوست
+der Nachbar / die Nachbarin|neighbour|پڑوسی
+alt|old|بوڑھا / پرانا
+jung|young|جوان
+groß|big / tall|بڑا / لمبا
+klein|small|چھوٹا
+# 5 | Food & drink
+das Brot|bread|روٹی
+das Brötchen|bread roll|چھوٹی ڈبل روٹی
+der Reis|rice|چاول
+das Fleisch|meat|گوشت
+das Hähnchen|chicken|مرغی
+der Fisch|fish|مچھلی
+das Ei|egg|انڈا
+der Käse|cheese|پنیر
+die Butter|butter|مکھن
+die Milch|milk|دودھ
+das Wasser|water|پانی
+der Tee|tea|چائے
+der Kaffee|coffee|کافی
+der Saft|juice|جوس
+der Apfel|apple|سیب
+die Banane|banana|کیلا
+die Kartoffel|potato|آلو
+die Tomate|tomato|ٹماٹر
+der Salat|salad|سلاد
+die Suppe|soup|سوپ
+der Zucker|sugar|چینی
+das Salz|salt|نمک
+das Frühstück|breakfast|ناشتہ
+das Mittagessen|lunch|دوپہر کا کھانا
+das Abendessen|dinner|رات کا کھانا
+essen|to eat|کھانا
+trinken|to drink|پینا
+lecker|tasty|مزیدار
+Hunger haben|to be hungry|بھوک لگنا
+Durst haben|to be thirsty|پیاس لگنا
+# 6 | Shopping, money, clothes
+kaufen|to buy|خریدنا
+verkaufen|to sell|بیچنا
+der Preis|price|قیمت
+kosten|to cost|قیمت ہونا
+der Euro|euro|یورو
+der Cent|cent|سینٹ
+teuer|expensive|مہنگا
+billig|cheap|سستا
+günstig|good value|مناسب قیمت
+das Geschäft|shop|دکان
+der Supermarkt|supermarket|سپر مارکیٹ
+der Markt|market|بازار
+die Kasse|checkout|کیش کاؤنٹر
+das Geld|money|پیسہ
+bar|cash|نقد
+die Karte|card|کارڈ
+bezahlen|to pay|ادا کرنا
+die Rechnung|bill|بل
+die Größe|size|سائز
+die Farbe|colour|رنگ
+die Hose|trousers|پتلون
+das Hemd|shirt|قمیض
+die Jacke|jacket|جیکٹ
+die Schuhe (pl.)|shoes|جوتے
+rot|red|سرخ
+blau|blue|نیلا
+grün|green|سبز
+gelb|yellow|پیلا
+schwarz|black|سیاہ
+weiß|white|سفید
+# 8 | Time, days, months
+die Uhr|clock / o'clock|گھڑی
+die Stunde|hour|گھنٹہ
+die Minute|minute|منٹ
+der Tag|day|دن
+die Woche|week|ہفتہ
+der Monat|month|مہینہ
+das Jahr|year|سال
+heute|today|آج
+morgen|tomorrow|آنے والا کل
+gestern|yesterday|گزرا ہوا کل
+jetzt|now|ابھی
+früh|early|جلدی
+spät|late|دیر
+der Morgen|morning|صبح
+der Mittag|midday|دوپہر
+der Nachmittag|afternoon|سہ پہر
+der Abend|evening|شام
+die Nacht|night|رات
+halb|half|آدھا
+das Viertel|quarter|چوتھائی
+der Termin|appointment|وقت / ملاقات
+der Geburtstag|birthday|سالگرہ
+der Montag|Monday|پیر
+der Dienstag|Tuesday|منگل
+der Mittwoch|Wednesday|بدھ
+der Donnerstag|Thursday|جمعرات
+der Freitag|Friday|جمعہ
+der Samstag|Saturday|ہفتہ
+der Sonntag|Sunday|اتوار
+der Januar|January|جنوری
+der Februar|February|فروری
+der März|March|مارچ
+der April|April|اپریل
+der Mai|May|مئی
+der Juni|June|جون
+der Juli|July|جولائی
+der August|August|اگست
+der September|September|ستمبر
+der Oktober|October|اکتوبر
+der November|November|نومبر
+der Dezember|December|دسمبر
+# 9 | Everyday verbs
+aufstehen (ich stehe auf)|to get up|اٹھنا
+frühstücken|to have breakfast|ناشتہ کرنا
+duschen|to shower|نہانا
+arbeiten|to work|کام کرنا
+lernen|to learn / study|سیکھنا / پڑھنا
+einkaufen (ich kaufe ein)|to shop|خریداری کرنا
+kochen|to cook|پکانا
+anrufen (ich rufe an)|to phone|فون کرنا
+fernsehen (ich sehe fern)|to watch TV|ٹی وی دیکھنا
+schlafen|to sleep|سونا
+ankommen (ich komme an)|to arrive|پہنچنا
+abfahren (ich fahre ab)|to depart|روانہ ہونا
+anfangen (ich fange an)|to begin|شروع کرنا
+aufräumen (ich räume auf)|to tidy up|صفائی کرنا
+abholen (ich hole ab)|to pick up|لینے جانا
+einladen (ich lade ein)|to invite|مدعو کرنا
+mitkommen (ich komme mit)|to come along|ساتھ آنا
+schreiben|to write|لکھنا
+lesen|to read|پڑھنا
+hören|to hear / listen|سننا
+sprechen|to speak|بولنا
+fragen|to ask|پوچھنا
+antworten|to answer|جواب دینا
+verstehen|to understand|سمجھنا
+helfen|to help|مدد کرنا
+brauchen|to need|ضرورت ہونا
+# 10 | Home
+das Haus|house|گھر
+die Wohnung|flat / apartment|اپارٹمنٹ
+das Zimmer|room|کمرہ
+die Küche|kitchen|باورچی خانہ
+das Bad|bathroom|غسل خانہ
+das Schlafzimmer|bedroom|سونے کا کمرہ
+das Wohnzimmer|living room|بیٹھک
+der Balkon|balcony|بالکونی
+die Tür|door|دروازہ
+das Fenster|window|کھڑکی
+der Tisch|table|میز
+der Stuhl|chair|کرسی
+das Bett|bed|بستر
+das Sofa|sofa|صوفہ
+der Schrank|cupboard|الماری
+die Lampe|lamp|لیمپ
+der Kühlschrank|fridge|فرج
+die Miete|rent|کرایہ
+die Straße|street|سڑک
+die Hausnummer|house number|مکان نمبر
+der Aufzug|lift|لفٹ
+schön|beautiful|خوبصورت
+hell|bright|روشن
+dunkel|dark|تاریک
+laut|loud|شور والا
+ruhig|quiet|پرسکون
+es gibt|there is / there are|موجود ہے
+# 11 | Places, directions, transport
+der Bahnhof|train station|ریلوے اسٹیشن
+die Haltestelle|stop (bus, tram)|بس اسٹاپ
+der Bus|bus|بس
+die U-Bahn|underground|زیر زمین ٹرین
+die Straßenbahn|tram|ٹرام
+der Zug|train|ٹرین
+das Auto|car|گاڑی
+das Fahrrad|bicycle|سائیکل
+der Flughafen|airport|ہوائی اڈہ
+die Fahrkarte|ticket|ٹکٹ
+links|left|بائیں
+rechts|right|دائیں
+geradeaus|straight ahead|سیدھا
+die Ampel|traffic light|ٹریفک لائٹ
+die Kreuzung|crossroads|چوراہا
+die Ecke|corner|کونہ
+die Apotheke|pharmacy|دوا خانہ
+die Bank|bank|بینک
+die Post|post office|ڈاک خانہ
+das Krankenhaus|hospital|ہسپتال
+die Schule|school|اسکول
+die Bibliothek|library|لائبریری
+das Restaurant|restaurant|ریستوراں
+der Park|park|پارک
+weit|far|دور
+nah|near|قریب
+hier|here|یہاں
+dort|there|وہاں
+# 12 | Free time & weather
+die Freizeit|free time|فارغ وقت
+das Hobby|hobby|شوق
+Fußball spielen|to play football|فٹ بال کھیلنا
+Cricket spielen|to play cricket|کرکٹ کھیلنا
+schwimmen|to swim|تیرنا
+tanzen|to dance|ناچنا
+singen|to sing|گانا
+Musik hören|to listen to music|موسیقی سننا
+Freunde treffen|to meet friends|دوستوں سے ملنا
+spazieren gehen|to go for a walk|چہل قدمی کرنا
+reisen|to travel|سفر کرنا
+das Wetter|weather|موسم
+die Sonne|sun|سورج
+der Regen|rain|بارش
+der Schnee|snow|برف
+der Wind|wind|ہوا
+warm|warm|گرم
+kalt|cold|ٹھنڈا
+heiß|hot|تپتا ہوا
+der Frühling|spring|بہار
+der Sommer|summer|گرمی
+der Herbst|autumn|خزاں
+der Winter|winter|سردی
+# 13 | Body & health
+der Körper|body|جسم
+der Kopf|head|سر
+das Auge|eye|آنکھ
+das Ohr|ear|کان
+die Nase|nose|ناک
+der Mund|mouth|منہ
+der Hals|throat / neck|گلا / گردن
+der Arm|arm|بازو
+die Hand|hand|ہاتھ
+das Bein|leg|ٹانگ
+der Fuß|foot|پاؤں
+der Bauch|stomach / belly|پیٹ
+der Rücken|back|کمر / پیٹھ
+der Zahn|tooth|دانت
+die Praxis|doctor's surgery|کلینک
+das Medikament|medicine|دوا
+das Rezept|prescription|نسخہ
+das Fieber|fever|بخار
+die Erkältung|cold (illness)|نزلہ
+die Schmerzen (pl.)|pain|درد
+krank|ill|بیمار
+gesund|healthy|صحت مند

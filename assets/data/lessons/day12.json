@@ -1,0 +1,26 @@
+{
+  "day": 12, "title": "Modal verbs, free time, weather", "group": 12,
+  "grammar": [
+    {"h": "Modal verbs", "t": "können: ich kann, du kannst, wir können\nmüssen: ich muss, du musst, wir müssen\nwollen: ich will, du willst, wir wollen\ndürfen: ich darf, du darfst, wir dürfen\nmöchten: ich möchte, du möchtest, wir möchten"},
+    {"h": "Word order", "t": "The modal verb is in position 2, the other verb (infinitive) goes to the end.\nIch kann schwimmen. Wir wollen ins Kino gehen."}
+  ],
+  "dialogue": [
+    "A: Hast du am Samstag Zeit? Wir möchten ins Kino gehen.",
+    "B: Tut mir leid, ich kann nicht. Ich muss arbeiten. Aber am Sonntag kann ich gern.",
+    "A: Super! Das Wetter ist gut. Es ist sonnig und warm."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Ich ___ schwimmen. (können)", "a": ["kann"]},
+    {"t": "fill", "q": "Du ___ heute arbeiten. (müssen)", "a": ["musst"]},
+    {"t": "fill", "q": "Wir ___ ins Kino gehen. (wollen)", "a": ["wollen"]},
+    {"t": "fill", "q": "Er ___ hier nicht rauchen. (dürfen)", "a": ["darf"]},
+    {"t": "fill", "q": "Ich ___ einen Kaffee. (möchten)", "a": ["möchte"]},
+    {"t": "fill", "q": "Ihr ___ nicht kommen. (können)", "a": ["könnt"]},
+    {"t": "order", "q": "I have to learn German today.", "a": ["Ich muss heute Deutsch lernen."]},
+    {"t": "order", "q": "Can you help me?", "a": ["Kannst du mir helfen?"]},
+    {"t": "order", "q": "We want to go to the cinema on Saturday.", "a": ["Wir wollen am Samstag ins Kino gehen.", "Am Samstag wollen wir ins Kino gehen."]},
+    {"t": "mc", "q": "Es ist sonnig und warm.", "o": ["It is rainy and cold.", "It is sunny and warm.", "It is windy and hot.", "It is snowy."], "a": 1},
+    {"t": "mc", "q": "Tut mir leid, ich kann nicht.", "o": ["Sorry, I can't.", "Thank you, I can.", "Please, I want.", "Excuse me, I must."], "a": 0},
+    {"t": "mc", "q": "Ich muss früh aufstehen. Where is aufstehen?", "o": ["Position 2", "At the end", "At the start", "After früh only"], "a": 1}
+  ]
+}

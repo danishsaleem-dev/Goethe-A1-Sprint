@@ -1,0 +1,29 @@
+{
+  "day": 13, "title": "Health and appointments", "group": 13,
+  "grammar": [
+    {"h": "Saying what hurts", "t": "Ich habe Kopfschmerzen. · Ich habe Fieber. · Mir ist schlecht. · Mir ist kalt."},
+    {"h": "Making an appointment", "t": "Ich brauche einen Termin. · Haben Sie am Montag um 10 Uhr einen Termin frei? · Das passt gut."}
+  ],
+  "dialogue": [
+    "Praxis: Praxis Dr. Schmidt, guten Tag.",
+    "Patient: Guten Tag, ich möchte einen Termin. Ich habe Fieber und Halsschmerzen.",
+    "Praxis: Geht es am Dienstag um zehn Uhr?",
+    "Patient: Ja, das passt gut. Mein Name ist Ali Khan.",
+    "Praxis: Danke, bis Dienstag."
+  ],
+  "questions": [
+    {"t": "fill", "q": "___ Kopf (der / die / das)", "a": ["der"]},
+    {"t": "fill", "q": "___ Auge (der / die / das)", "a": ["das"]},
+    {"t": "fill", "q": "___ Ohr (der / die / das)", "a": ["das"]},
+    {"t": "fill", "q": "___ Hand (der / die / das)", "a": ["die"]},
+    {"t": "fill", "q": "___ Bauch (der / die / das)", "a": ["der"]},
+    {"t": "mc", "q": "Guten Tag, ich ___ einen Termin.", "o": ["brauche", "passt", "heiße", "habe"], "a": 0},
+    {"t": "mc", "q": "Geht es am Montag um 9 Uhr? – Ja, das ___ gut.", "o": ["brauche", "passt", "heißt", "habe"], "a": 1},
+    {"t": "mc", "c": "Sprechzeiten: Mo-Fr 8-12 Uhr. Di und Do auch 15-18 Uhr. Mittwochnachmittag geschlossen.", "q": "Is the practice open on Wednesday at 16:00?", "o": ["Yes", "No"], "a": 1},
+    {"t": "mc", "c": "Sprechzeiten: Mo-Fr 8-12 Uhr. Di und Do auch 15-18 Uhr. Mittwochnachmittag geschlossen.", "q": "Is the practice open on Thursday at 16:00?", "o": ["Yes", "No"], "a": 0},
+    {"t": "mc", "c": "Sprechzeiten: Mo-Fr 8-12 Uhr. Di und Do auch 15-18 Uhr. Mittwochnachmittag geschlossen.", "q": "What time does it open on Friday?", "o": ["8 Uhr", "9 Uhr", "12 Uhr", "15 Uhr"], "a": 0},
+    {"t": "order", "q": "I have a fever.", "a": ["Ich habe Fieber."]},
+    {"t": "order", "q": "I have a headache.", "a": ["Ich habe Kopfschmerzen."]},
+    {"t": "order", "q": "I need an appointment.", "a": ["Ich brauche einen Termin."]}
+  ]
+}

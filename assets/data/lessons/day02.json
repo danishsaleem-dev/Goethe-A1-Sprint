@@ -1,0 +1,33 @@
+{
+  "day": 2, "title": "Numbers, age and haben", "group": 2,
+  "grammar": [
+    {"h": "haben (to have)", "t": "ich habe · du hast · er/sie/es hat\nwir haben · ihr habt · sie/Sie haben"},
+    {"h": "Numbers above 20", "t": "The unit comes first: 21 = einundzwanzig, 34 = vierunddreißig, 99 = neunundneunzig.\nSay phone numbers digit by digit."},
+    {"h": "Age", "t": "Wie alt bist du? – Ich bin 25 Jahre alt."}
+  ],
+  "dialogue": [
+    "A: Wie alt bist du?",
+    "B: Ich bin fünfundzwanzig Jahre alt.",
+    "A: Wie ist deine Telefonnummer?",
+    "B: Null drei null null, eins zwei drei, vier fünf sechs sieben.",
+    "A: Hast du Geschwister?",
+    "B: Ja, ich habe zwei Brüder und eine Schwester."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Write in German: 13", "a": ["dreizehn"]},
+    {"t": "fill", "q": "Write in German: 21", "a": ["einundzwanzig"]},
+    {"t": "fill", "q": "Write in German: 34", "a": ["vierunddreißig"]},
+    {"t": "fill", "q": "Write in German: 48", "a": ["achtundvierzig"]},
+    {"t": "fill", "q": "Write in German: 72", "a": ["zweiundsiebzig"]},
+    {"t": "mc", "q": "Which number is sechzig?", "o": ["6", "16", "60", "66"], "a": 2, "e": "sechzehn = 16, sechzig = 60."},
+    {"t": "mc", "q": "Which number is neunundneunzig?", "o": ["90", "99", "9", "19"], "a": 1},
+    {"t": "fill", "q": "Ich ___ eine Schwester.", "a": ["habe"]},
+    {"t": "fill", "q": "Du ___ ein Auto.", "a": ["hast"]},
+    {"t": "fill", "q": "Er ___ Hunger.", "a": ["hat"]},
+    {"t": "fill", "q": "Wir ___ Zeit.", "a": ["haben"]},
+    {"t": "fill", "q": "Ihr ___ einen Hund.", "a": ["habt"]},
+    {"t": "mc", "q": "Wo ___ du?", "o": ["wohne", "wohnst", "wohnt", "wohnen"], "a": 1},
+    {"t": "order", "q": "How old are you? (informal)", "a": ["Wie alt bist du?"]},
+    {"t": "order", "q": "I have two brothers.", "a": ["Ich habe zwei Brüder."]}
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "mocks": [
+    {
+      "id": "m1", "title": "Mock 1",
+      "sections": [
+        {
+          "id": "lesen", "title": "Lesen", "minutes": 25,
+          "parts": [
+            {"title": "Teil 1", "instr": "Read the email. Richtig or falsch?", "clips": [
+              {"text": "Hallo Jana,\nwie geht's dir? Ich bin jetzt in Wien. Das Wetter ist schön, aber es ist ziemlich kalt. Ich wohne bei meiner Tante. Sie hat eine kleine Wohnung im Zentrum. Morgen besuche ich das Museum. Am Freitag fahre ich mit dem Zug zurück. Ich komme um 18:30 Uhr in Hamburg an. Holst du mich am Bahnhof ab?\nLiebe Grüße, Tim",
+               "items": [
+                {"q": "Tim ist in Wien.", "r": true},
+                {"q": "Das Wetter ist warm.", "r": false},
+                {"q": "Tim wohnt in einem Hotel.", "r": false},
+                {"q": "Er besucht morgen ein Museum.", "r": true},
+                {"q": "Er fährt mit dem Flugzeug zurück.", "r": false}
+               ]}
+            ]},
+            {"title": "Teil 2", "instr": "Read the notices. Choose a, b or c.", "clips": [
+              {"text": "Bäckerei Schulz\nMontag bis Freitag 6:30-18:00 Uhr\nSamstag 6:30-13:00 Uhr\nSonntag geschlossen\nAb 17 Uhr alle Brötchen 50% billiger.",
+               "items": [
+                {"q": "Wann schließt die Bäckerei am Samstag?", "o": ["um 12 Uhr", "um 13 Uhr", "um 18 Uhr"], "a": 1},
+                {"q": "Wann sind die Brötchen billiger?", "o": ["am Sonntag", "ab 17 Uhr", "am Morgen"], "a": 1}
+               ]},
+              {"text": "Deutschkurs A1\nBeginn: 3. November\nMontag und Mittwoch 18:00-20:30 Uhr\nPreis: 180 Euro für 8 Wochen\nAnmeldung im Büro, Zimmer 12.",
+               "items": [
+                {"q": "Wie oft ist der Kurs pro Woche?", "o": ["einmal", "zweimal", "dreimal"], "a": 1},
+                {"q": "Was kostet der Kurs?", "o": ["18 Euro", "80 Euro", "180 Euro"], "a": 2},
+                {"q": "Wie lange dauert der Kurs?", "o": ["4 Wochen", "8 Wochen", "12 Wochen"], "a": 1}
+               ]}
+            ]},
+            {"title": "Teil 3", "instr": "Read the sign and the statement. Richtig or falsch?", "clips": [
+              {"text": "Schild: Rauchen verboten.", "items": [{"q": "Man darf hier rauchen.", "r": false}]},
+              {"text": "Schild: Bitte leise! Kinder schlafen.", "items": [{"q": "Man soll hier ruhig sein.", "r": true}]},
+              {"text": "Schild: Eingang nur für Mitarbeiter.", "items": [{"q": "Alle Personen dürfen hier hineingehen.", "r": false}]},
+              {"text": "Schild (Restaurant): Heute Ruhetag.", "items": [{"q": "Das Restaurant ist heute offen.", "r": false}]},
+              {"text": "Schild: Fahrräder hier abstellen.", "items": [{"q": "Hier ist ein Parkplatz für Autos.", "r": false}]}
+            ]}
+          ]
+        },
+        {
+          "id": "hoeren", "title": "Hören", "minutes": 20,
+          "parts": [
+            {"title": "Teil 1", "instr": "Short dialogues. Each is played twice.", "clips": [
+              {"audio": "A: Entschuldigung, wie spät ist es? B: Es ist Viertel nach drei.", "items": [{"q": "Wie spät ist es?", "o": ["3:15", "3:45", "2:15"], "a": 0}]},
+              {"audio": "A: Was kostet das Brot? B: Das kostet zwei Euro fünfzig. A: Dann nehme ich zwei.", "items": [{"q": "Wie viel kostet ein Brot?", "o": ["2,15 €", "2,50 €", "5,00 €"], "a": 1}]},
+              {"audio": "A: Wo wohnen Sie? B: In München, in der Lindenstraße achtzehn.", "items": [{"q": "Welche Hausnummer hat die Frau?", "o": ["8", "18", "80"], "a": 1}]},
+              {"audio": "A: Möchten Sie Kaffee oder Tee? B: Tee, bitte. Mit Zitrone.", "items": [{"q": "Was möchte die Frau?", "o": ["Kaffee", "Tee", "Wasser"], "a": 1}]},
+              {"audio": "A: Wann fährt der Zug nach Berlin? B: Um zehn Uhr vierzig, Gleis sieben.", "items": [{"q": "Von welchem Gleis fährt der Zug?", "o": ["4", "7", "17"], "a": 1}]}
+            ]},
+            {"title": "Teil 2", "instr": "Announcements. Each is played twice.", "clips": [
+              {"audio": "Achtung am Gleis fünf: Der Zug nach Köln hat zehn Minuten Verspätung. Er fährt um vierzehn Uhr fünfundzwanzig ab.", "items": [{"q": "Wann fährt der Zug ab?", "o": ["14:15", "14:25", "14:50"], "a": 1}]},
+              {"audio": "Liebe Kunden, heute im Angebot: Äpfel, ein Kilo nur ein Euro neunundneunzig. Bitte beachten Sie: Der Markt schließt heute um zwanzig Uhr.", "items": [
+                {"q": "Was kostet ein Kilo Äpfel?", "o": ["1,19 €", "1,99 €", "9,99 €"], "a": 1},
+                {"q": "Wann schließt der Markt?", "o": ["18 Uhr", "19 Uhr", "20 Uhr"], "a": 2}
+              ]},
+              {"audio": "Willkommen im Kino Central. Der Film beginnt in fünf Minuten. Bitte schalten Sie Ihr Handy aus.", "items": [{"q": "Was soll man tun?", "o": ["das Handy ausmachen", "das Ticket zeigen", "leise sprechen"], "a": 0}]}
+            ]},
+            {"title": "Teil 3", "instr": "Voicemails. Each is played twice.", "clips": [
+              {"audio": "Hallo Ali, hier ist Sara. Wir treffen uns morgen um halb sieben im Café Luna. Bring bitte das Buch mit. Bis morgen!", "items": [
+                {"q": "Wann treffen sie sich?", "o": ["6:30", "7:30", "6:00"], "a": 0},
+                {"q": "Was soll Ali mitbringen?", "o": ["einen Kuchen", "das Buch", "Geld"], "a": 1}
+              ]},
+              {"audio": "Guten Tag, hier ist die Praxis Dr. Schmidt. Ihr Termin am Dienstag ist leider nicht möglich. Bitte rufen Sie uns an unter null vier zwei eins, drei sieben, fünf acht.", "items": [{"q": "Warum ruft die Praxis an?", "o": ["Der Termin am Dienstag geht nicht.", "Das Rezept ist fertig.", "Der Patient ist zu spät."], "a": 0}]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2", "title": "Mock 2",
+      "sections": [
+        {
+          "id": "lesen", "title": "Lesen", "minutes": 25,
+          "parts": [
+            {"title": "Teil 1", "instr": "Read the email. Richtig or falsch?", "clips": [
+              {"text": "Liebe Mara,\nich habe eine neue Wohnung! Sie liegt in der Gartenstraße 9, im dritten Stock. Es gibt zwei Zimmer, eine Küche und einen kleinen Balkon. Die Miete ist 520 Euro. Am Samstag um 14 Uhr mache ich eine Party. Kannst du kommen? Bring bitte Getränke mit.\nViele Grüße, Jonas",
+               "items": [
+                {"q": "Jonas hat eine neue Wohnung.", "r": true},
+                {"q": "Die Wohnung hat drei Zimmer.", "r": false},
+                {"q": "Die Miete ist 520 Euro.", "r": true},
+                {"q": "Die Party ist am Sonntag.", "r": false},
+                {"q": "Mara soll Getränke mitbringen.", "r": true}
+               ]}
+            ]},
+            {"title": "Teil 2", "instr": "Read the notices. Choose a, b or c.", "clips": [
+              {"text": "Schwimmbad Sonnenbad\nÖffnungszeiten: Dienstag bis Freitag 9-21 Uhr, Samstag und Sonntag 10-18 Uhr. Montag Ruhetag.\nEintritt: Erwachsene 4 Euro, Kinder bis 6 Jahre frei.",
+               "items": [
+                {"q": "Wann ist das Schwimmbad am Montag geöffnet?", "o": ["von 9 bis 21 Uhr", "gar nicht", "von 10 bis 18 Uhr"], "a": 1},
+                {"q": "Wie viel kostet der Eintritt für Erwachsene?", "o": ["2 Euro", "4 Euro", "frei"], "a": 1},
+                {"q": "Wer zahlt nichts?", "o": ["Kinder bis 6 Jahre", "alle Kinder", "Frauen"], "a": 0}
+               ]},
+              {"text": "Sprachschule Lingua\nNeuer Kurs Deutsch A1 ab 12. Januar.\nDienstag und Donnerstag, 9:00-11:30 Uhr.\nPreis: 220 Euro.\nKostenlose Beratung: Mo-Fr 10-12 Uhr, Raum 3.",
+               "items": [
+                {"q": "Wann beginnt der Kurs?", "o": ["am 2. Januar", "am 12. Januar", "am 21. Januar"], "a": 1},
+                {"q": "Wann ist der Unterricht?", "o": ["am Morgen", "am Nachmittag", "am Abend"], "a": 0}
+               ]}
+            ]},
+            {"title": "Teil 3", "instr": "Read the sign and the statement. Richtig or falsch?", "clips": [
+              {"text": "Schild: Bitte Schuhe ausziehen.", "items": [{"q": "Man muss die Schuhe anlassen.", "r": false}]},
+              {"text": "Schild: Achtung! Nasser Boden.", "items": [{"q": "Der Boden ist trocken.", "r": false}]},
+              {"text": "Schild: Hunde müssen an der Leine bleiben.", "items": [{"q": "Hunde dürfen hier frei laufen.", "r": false}]},
+              {"text": "Schild: Notausgang. Bitte freihalten.", "items": [{"q": "Hier darf man nichts hinstellen.", "r": true}]},
+              {"text": "Schild: Handy aus, bitte!", "items": [{"q": "Hier soll man das Handy ausmachen.", "r": true}]}
+            ]}
+          ]
+        },
+        {
+          "id": "hoeren", "title": "Hören", "minutes": 20,
+          "parts": [
+            {"title": "Teil 1", "instr": "Short dialogues. Each is played twice.", "clips": [
+              {"audio": "A: Wie viel kostet die Zeitung? B: Einen Euro zwanzig.", "items": [{"q": "Wie viel kostet die Zeitung?", "o": ["1,02 €", "1,20 €", "2,10 €"], "a": 1}]},
+              {"audio": "A: Wann beginnt der Film? B: Um halb acht.", "items": [{"q": "Wann beginnt der Film?", "o": ["7:30", "8:30", "7:00"], "a": 0}]},
+              {"audio": "A: Wie ist Ihre Telefonnummer? B: Null drei null, vier fünf sechs, sieben acht neun.", "items": [{"q": "Wie ist die Nummer?", "o": ["030 456 789", "030 465 789", "013 456 789"], "a": 0}]},
+              {"audio": "A: Hast du Geschwister? B: Ja, einen Bruder und zwei Schwestern.", "items": [{"q": "Wie viele Geschwister hat er?", "o": ["2", "3", "4"], "a": 1}]},
+              {"audio": "A: Entschuldigung, wo ist die Apotheke? B: Gehen Sie geradeaus und dann rechts. Sie ist neben der Post.", "items": [{"q": "Wo ist die Apotheke?", "o": ["neben der Post", "neben der Bank", "links"], "a": 0}]}
+            ]},
+            {"title": "Teil 2", "instr": "Announcements. Each is played twice.", "clips": [
+              {"audio": "Achtung, eine Durchsage: Der Bus Linie acht fährt heute nicht. Bitte nehmen Sie die Straßenbahn Linie drei. Sie fährt alle zehn Minuten.", "items": [
+                {"q": "Was soll man nehmen?", "o": ["Bus 8", "Straßenbahn 3", "die U-Bahn"], "a": 1},
+                {"q": "Wie oft fährt sie?", "o": ["alle 10 Minuten", "alle 20 Minuten", "alle 30 Minuten"], "a": 0}
+              ]},
+              {"audio": "Liebe Kunden, die Kasse zwei ist jetzt geöffnet. Heute gibt es Orangen für nur zwei Euro das Kilo. Das Geschäft schließt um neunzehn Uhr.", "items": [
+                {"q": "Was kostet ein Kilo Orangen?", "o": ["2 €", "12 €", "20 €"], "a": 0},
+                {"q": "Wann schließt das Geschäft?", "o": ["17 Uhr", "19 Uhr", "9 Uhr"], "a": 1}
+              ]},
+              {"audio": "Willkommen im Hotel Rose. Das Frühstück gibt es von sieben bis zehn Uhr im Restaurant. Das WLAN ist kostenlos.", "items": [{"q": "Wann gibt es Frühstück?", "o": ["7 bis 10 Uhr", "8 bis 11 Uhr", "6 bis 9 Uhr"], "a": 0}]}
+            ]},
+            {"title": "Teil 3", "instr": "Voicemail. Played twice.", "clips": [
+              {"audio": "Hallo Tina, hier ist Paul. Ich komme heute später, so um sieben statt um sechs. Bitte warte im Restaurant. Bis gleich!", "items": [
+                {"q": "Wann kommt Paul?", "o": ["um 18 Uhr", "um 19 Uhr", "um 20 Uhr"], "a": 1},
+                {"q": "Wo soll Tina warten?", "o": ["im Restaurant", "am Bahnhof", "zu Hause"], "a": 0}
+              ]}
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

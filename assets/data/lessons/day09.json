@@ -1,0 +1,27 @@
+{
+  "day": 9, "title": "Separable verbs, daily routine", "group": 9,
+  "grammar": [
+    {"h": "The prefix jumps to the end", "t": "aufstehen → Ich stehe um 6 Uhr auf.\neinkaufen → Wir kaufen am Samstag ein.\nanrufen → Ich rufe meine Mutter an."},
+    {"h": "With a modal verb", "t": "The verb stays together at the end: Ich muss früh aufstehen."}
+  ],
+  "dialogue": [
+    "Ich stehe um sechs Uhr auf. Dann dusche ich und frühstücke.",
+    "Um acht Uhr fange ich an zu arbeiten.",
+    "Am Samstag kaufe ich ein und rufe meine Mutter an.",
+    "Abends sehe ich fern und schlafe um elf Uhr."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Ich ___ um 6 Uhr ___. (aufstehen)", "a": ["stehe auf"], "h": "two words"},
+    {"t": "fill", "q": "Wir ___ am Samstag ___. (einkaufen)", "a": ["kaufen ein"], "h": "two words"},
+    {"t": "fill", "q": "Er ___ seine Mutter ___. (anrufen)", "a": ["ruft an"], "h": "two words"},
+    {"t": "fill", "q": "Du ___ abends ___. (fernsehen)", "a": ["siehst fern"], "h": "two words"},
+    {"t": "fill", "q": "Der Zug ___ um 10 Uhr ___. (ankommen)", "a": ["kommt an"], "h": "two words"},
+    {"t": "mc", "q": "Which sentence is correct?", "o": ["Ich aufstehe um 6 Uhr.", "Ich stehe um 6 Uhr auf.", "Ich stehe auf um 6 Uhr.", "Ich auf stehe um 6 Uhr."], "a": 1},
+    {"t": "order", "q": "I get up at 7 o'clock.", "a": ["Ich stehe um 7 Uhr auf.", "Um 7 Uhr stehe ich auf."]},
+    {"t": "order", "q": "Sara goes shopping today.", "a": ["Sara kauft heute ein.", "Heute kauft Sara ein."]},
+    {"t": "order", "q": "Are you coming along?", "a": ["Kommst du mit?"]},
+    {"t": "order", "q": "I have to get up early.", "a": ["Ich muss früh aufstehen."]},
+    {"t": "order", "q": "Would you like to come along?", "a": ["Möchtest du mitkommen?"]},
+    {"t": "order", "q": "The lesson begins at nine.", "a": ["Der Unterricht beginnt um neun Uhr."]}
+  ]
+}

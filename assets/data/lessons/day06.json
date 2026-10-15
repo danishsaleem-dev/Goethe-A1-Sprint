@@ -1,0 +1,31 @@
+{
+  "day": 6, "title": "Plural, nicht vs kein, prices", "group": 6,
+  "grammar": [
+    {"h": "Plural patterns", "t": "-e: der Tag → die Tage · -en: die Frau → die Frauen · -n: die Lampe → die Lampen\n-er: das Kind → die Kinder · -s: das Auto → die Autos · umlaut: der Bruder → die Brüder\nno change: der Lehrer → die Lehrer"},
+    {"h": "nicht or kein?", "t": "kein/keine negates a noun with ein or no article.\nnicht negates verbs, adjectives and nouns with der/die/das or mein.\nDas Buch ist nicht teuer. Ich arbeite nicht. Das ist nicht mein Bruder."},
+    {"h": "Prices", "t": "2,50 € = zwei Euro fünfzig · 0,80 € = achtzig Cent"}
+  ],
+  "dialogue": [
+    "Verkäufer: Guten Tag. Was kann ich für Sie tun?",
+    "Kunde: Ich möchte ein Kilo Äpfel. Was kosten sie?",
+    "Verkäufer: Das macht drei Euro fünfzig.",
+    "Kunde: Gut, ich nehme sie. Hier sind fünf Euro.",
+    "Verkäufer: Und eins fünfzig zurück. Danke!"
+  ],
+  "questions": [
+    {"t": "fill", "q": "Plural: das Buch → die ___", "a": ["Bücher"]},
+    {"t": "fill", "q": "Plural: die Frau → die ___", "a": ["Frauen"]},
+    {"t": "fill", "q": "Plural: der Tag → die ___", "a": ["Tage"]},
+    {"t": "fill", "q": "Plural: der Bruder → die ___", "a": ["Brüder"]},
+    {"t": "fill", "q": "Plural: das Auto → die ___", "a": ["Autos"]},
+    {"t": "fill", "q": "Plural: die Schwester → die ___", "a": ["Schwestern"]},
+    {"t": "fill", "q": "Plural: der Apfel → die ___", "a": ["Äpfel"]},
+    {"t": "mc", "q": "Ich habe ___ Auto.", "o": ["kein", "keine", "nicht", "keinen"], "a": 0, "e": "Auto is neuter: kein Auto."},
+    {"t": "mc", "q": "Das Buch ist ___ teuer.", "o": ["kein", "keine", "nicht", "keinen"], "a": 2, "e": "teuer is an adjective, so use nicht."},
+    {"t": "mc", "q": "Wir haben ___ Kinder.", "o": ["kein", "keine", "nicht", "keinen"], "a": 1},
+    {"t": "mc", "q": "Er arbeitet ___.", "o": ["kein", "keine", "nicht", "keinen"], "a": 2},
+    {"t": "fill", "q": "Write in words: 2,50 €", "a": ["zwei Euro fünfzig"]},
+    {"t": "fill", "q": "Write in words: 12,99 €", "a": ["zwölf Euro neunundneunzig"]},
+    {"t": "fill", "q": "Write in words: 0,80 €", "a": ["achtzig Cent"]}
+  ]
+}

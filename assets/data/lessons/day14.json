@@ -1,0 +1,30 @@
+{
+  "day": 14, "title": "Perfekt-lite and review test 2", "group": 0,
+  "grammar": [
+    {"h": "Perfekt (bonus)", "t": "haben/sein in position 2 + past participle at the end.\nRegular: machen → gemacht · lernen → gelernt · kaufen → gekauft\nIrregular: essen → gegessen · trinken → getrunken · sehen → gesehen\nWith sein: gehen → gegangen · fahren → gefahren · kommen → gekommen\nGestern habe ich Deutsch gelernt. Ich bin nach Hause gegangen."},
+    {"h": "Review test 2", "t": "20 questions on Days 8-13. Aim for 18 or more."}
+  ],
+  "dialogue": [],
+  "questions": [
+    {"t": "fill", "q": "8:30 (everyday style)", "a": ["halb neun"]},
+    {"t": "fill", "q": "5:45 (everyday style)", "a": ["Viertel vor sechs"]},
+    {"t": "fill", "q": "3.5. → ___ dritten Mai (am / im)", "a": ["am"]},
+    {"t": "fill", "q": "Der Kurs beginnt ___ 9 Uhr. (um / am / im)", "a": ["um"]},
+    {"t": "fill", "q": "___ Dezember ist es kalt. (um / am / im)", "a": ["im"]},
+    {"t": "fill", "q": "Ich ___ um 6 Uhr ___. (aufstehen)", "a": ["stehe auf"], "h": "two words"},
+    {"t": "fill", "q": "Ich ___ schwimmen. (können)", "a": ["kann"]},
+    {"t": "fill", "q": "Du ___ heute arbeiten. (müssen)", "a": ["musst"]},
+    {"t": "fill", "q": "Gestern ___ ich Brot ___. (kaufen, Perfekt)", "a": ["habe gekauft"], "h": "two words"},
+    {"t": "fill", "q": "Er ___ nach Berlin ___. (fahren, Perfekt)", "a": ["ist gefahren"], "h": "two words"},
+    {"t": "fill", "q": "Das Buch liegt auf ___ Tisch.", "a": ["dem"]},
+    {"t": "fill", "q": "Ich bin in ___ Küche.", "a": ["der"]},
+    {"t": "fill", "q": "Ich fahre ___ dem Bus.", "a": ["mit"]},
+    {"t": "fill", "q": "Ich gehe ___ Arzt. (zum / zur)", "a": ["zum"]},
+    {"t": "fill", "q": "In meiner Wohnung ___ ___ ein Bad. (there is)", "a": ["gibt es"], "h": "two words"},
+    {"t": "order", "q": "Go straight ahead. (formal)", "a": ["Gehen Sie geradeaus!"]},
+    {"t": "order", "q": "Excuse me, where is the pharmacy?", "a": ["Entschuldigung, wo ist die Apotheke?"]},
+    {"t": "order", "q": "I have a fever.", "a": ["Ich habe Fieber."]},
+    {"t": "order", "q": "I have an appointment on Monday at ten.", "a": ["Ich habe am Montag um zehn Uhr einen Termin."]},
+    {"t": "order", "q": "Can you help me, please? (formal)", "a": ["Können Sie mir bitte helfen?"]}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "day": 4, "title": "Articles, possessives, family", "group": 4,
+  "grammar": [
+    {"h": "Three genders", "t": "der Vater (m) · die Mutter (f) · das Kind (n) · die Eltern (plural)\nAlways learn the noun with its article."},
+    {"h": "ein / eine", "t": "Masculine and neuter: ein. Feminine: eine. Example: ein Mann, eine Frau, ein Kind."},
+    {"h": "Possessives", "t": "mein (my) · dein (your) · sein (his) · ihr (her) · unser (our) · euer (your, pl.) · ihr (their) · Ihr (your, formal)\nFeminine and plural add -e: meine Mutter, meine Eltern."}
+  ],
+  "dialogue": [
+    "A: Das ist meine Familie. Mein Vater heißt Imran.",
+    "A: Er ist zweiundfünfzig Jahre alt.",
+    "A: Meine Mutter heißt Sana.",
+    "A: Ich habe einen Bruder und eine Schwester.",
+    "A: Unsere Kinder sind klein."
+  ],
+  "questions": [
+    {"t": "fill", "q": "___ Mutter (der / die / das)", "a": ["die"]},
+    {"t": "fill", "q": "___ Vater (der / die / das)", "a": ["der"]},
+    {"t": "fill", "q": "___ Kind (der / die / das)", "a": ["das"]},
+    {"t": "fill", "q": "___ Familie (der / die / das)", "a": ["die"]},
+    {"t": "fill", "q": "Das ist ___ Mann. (ein / eine)", "a": ["ein"]},
+    {"t": "fill", "q": "Das ist ___ Frau. (ein / eine)", "a": ["eine"]},
+    {"t": "fill", "q": "Ich habe ___ Bruder. (ein / einen)", "a": ["einen"], "e": "Masculine accusative: einen."},
+    {"t": "fill", "q": "Das ist (ich) ___ Bruder.", "a": ["mein"]},
+    {"t": "fill", "q": "Das ist (du) ___ Schwester.", "a": ["deine"]},
+    {"t": "fill", "q": "Das ist (er) ___ Mutter.", "a": ["seine"]},
+    {"t": "fill", "q": "Das sind (wir) ___ Eltern.", "a": ["unsere"]},
+    {"t": "mc", "c": "Hallo, ich bin Lena. Ich bin 24 und komme aus Hamburg. Ich habe eine Schwester, Mia. Sie ist 20 Jahre alt und Studentin.", "q": "Woher kommt Lena?", "o": ["Aus Berlin", "Aus Hamburg", "Aus Wien", "Aus Köln"], "a": 1},
+    {"t": "mc", "c": "Hallo, ich bin Lena. Ich bin 24 und komme aus Hamburg. Ich habe eine Schwester, Mia. Sie ist 20 Jahre alt und Studentin.", "q": "Wie alt ist Mia?", "o": ["20", "24", "12", "42"], "a": 0},
+    {"t": "mc", "c": "Hallo, ich bin Lena. Ich bin 24 und komme aus Hamburg. Ich habe eine Schwester, Mia. Sie ist 20 Jahre alt und Studentin.", "q": "Was ist Mia?", "o": ["Lehrerin", "Ärztin", "Studentin", "Köchin"], "a": 2}
+  ]
+}

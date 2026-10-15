@@ -1,0 +1,29 @@
+{
+  "day": 7, "title": "Review test 1 (Days 1-6)", "group": 0,
+  "grammar": [
+    {"h": "How to use this test", "t": "20 questions, aim for 18 or more. Anything below 18: repeat the matching day tomorrow before starting Day 8."}
+  ],
+  "dialogue": [],
+  "questions": [
+    {"t": "fill", "q": "Ich ___ Student. (sein)", "a": ["bin"]},
+    {"t": "fill", "q": "Du ___ Hunger. (haben)", "a": ["hast"]},
+    {"t": "fill", "q": "Wir ___ in Lahore. (wohnen)", "a": ["wohnen"]},
+    {"t": "fill", "q": "Er ___ Deutsch. (sprechen)", "a": ["spricht"]},
+    {"t": "fill", "q": "Wie ___ du? (heißen)", "a": ["heißt"]},
+    {"t": "fill", "q": "Ich habe ___ Bruder. (ein)", "a": ["einen"]},
+    {"t": "fill", "q": "Das ist ___ Frau. (ein)", "a": ["eine"]},
+    {"t": "fill", "q": "Ich esse ___ Apfel. (ein)", "a": ["einen"]},
+    {"t": "fill", "q": "Sie hat ___ Kinder. (kein)", "a": ["keine"]},
+    {"t": "fill", "q": "Das Brot ist ___ teuer. (nicht / kein)", "a": ["nicht"]},
+    {"t": "fill", "q": "Write 47 in words.", "a": ["siebenundvierzig"]},
+    {"t": "fill", "q": "Write 3,60 € in words.", "a": ["drei Euro sechzig"]},
+    {"t": "fill", "q": "Das ist (ich) ___ Mutter.", "a": ["meine"]},
+    {"t": "fill", "q": "Das ist (er) ___ Schwester.", "a": ["seine"]},
+    {"t": "order", "q": "I come from Pakistan.", "a": ["Ich komme aus Pakistan."]},
+    {"t": "order", "q": "How much does that cost?", "a": ["Was kostet das?"]},
+    {"t": "order", "q": "Where do you live? (informal)", "a": ["Wo wohnst du?"]},
+    {"t": "order", "q": "She is a doctor.", "a": ["Sie ist Ärztin."]},
+    {"t": "order", "q": "I would like a tea, please.", "a": ["Ich möchte bitte einen Tee.", "Ich möchte einen Tee bitte."]},
+    {"t": "order", "q": "We have two children.", "a": ["Wir haben zwei Kinder."]}
+  ]
+}

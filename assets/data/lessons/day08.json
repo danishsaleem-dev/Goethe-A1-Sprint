@@ -1,0 +1,30 @@
+{
+  "day": 8, "title": "Time, dates, prepositions", "group": 8,
+  "grammar": [
+    {"h": "Telling time", "t": "7:15 = Viertel nach sieben · 8:30 = halb neun (half TO nine!) · 8:45 = Viertel vor neun\n8:20 = zwanzig nach acht · 8:50 = zehn vor neun\nOfficial style: 14:30 = vierzehn Uhr dreißig"},
+    {"h": "um, am, im, von...bis", "t": "um 8 Uhr · am Montag · am 14. Oktober · im Januar · von 9 bis 17 Uhr"},
+    {"h": "Dates", "t": "Ordinals up to 19 add -te (der dritte), from 20 add -ste (der zwanzigste). Exceptions: erste, dritte, siebte."}
+  ],
+  "dialogue": [
+    "A: Wann beginnt der Deutschkurs?",
+    "B: Er beginnt am Montag um neun Uhr und endet um halb eins.",
+    "A: Und wann hast du Geburtstag?",
+    "B: Ich habe am vierzehnten Oktober Geburtstag."
+  ],
+  "questions": [
+    {"t": "fill", "q": "7:15 (everyday style)", "a": ["Viertel nach sieben"]},
+    {"t": "fill", "q": "9:30 (everyday style)", "a": ["halb zehn"]},
+    {"t": "fill", "q": "11:45 (everyday style)", "a": ["Viertel vor zwölf"]},
+    {"t": "fill", "q": "6:20 (everyday style)", "a": ["zwanzig nach sechs"]},
+    {"t": "fill", "q": "18:50 as 6:50 (everyday style)", "a": ["zehn vor sieben"]},
+    {"t": "fill", "q": "Der Kurs beginnt ___ 9 Uhr. (um / am / im)", "a": ["um"]},
+    {"t": "fill", "q": "Wir haben ___ Montag Unterricht. (um / am / im)", "a": ["am"]},
+    {"t": "fill", "q": "___ Januar ist es kalt. (um / am / im)", "a": ["im"]},
+    {"t": "fill", "q": "Ich arbeite ___ 8 ___ 16 Uhr.", "a": ["von bis"], "h": "two words"},
+    {"t": "fill", "q": "Der Test ist ___ 14. November. (um / am / im)", "a": ["am"]},
+    {"t": "fill", "q": "1.1. → ___ ersten Januar", "a": ["am"]},
+    {"t": "fill", "q": "Say 3.5. with am: am ___ Mai", "a": ["dritten"]},
+    {"t": "mc", "c": "Bus 12 fährt um 7:20, 8:05 und 9:40. Der letzte Bus fährt um 22:15.", "q": "Wann fährt der zweite Bus?", "o": ["7:20", "8:05", "9:40", "22:15"], "a": 1},
+    {"t": "mc", "c": "Bus 12 fährt um 7:20, 8:05 und 9:40. Der letzte Bus fährt um 22:15.", "q": "Wann fährt der letzte Bus?", "o": ["9:40", "10:15", "22:15", "22:50"], "a": 2}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "day": 3, "title": "Verb endings, jobs, languages", "group": 3,
+  "grammar": [
+    {"h": "Regular verbs", "t": "ich -e · du -st · er/sie/es -t · wir -en · ihr -t · sie/Sie -en\nlernen: ich lerne, du lernst, er lernt, wir lernen"},
+    {"h": "Extra -e-", "t": "Stems ending in -t or -d add an e: du arbeitest, er arbeitet, ihr arbeitet."},
+    {"h": "sprechen changes", "t": "ich spreche · du sprichst · er spricht"},
+    {"h": "Yes/no questions", "t": "The verb comes first: Sprichst du Deutsch?"}
+  ],
+  "dialogue": [
+    "A: Was sind Sie von Beruf?",
+    "B: Ich bin Lehrer. Ich arbeite in Lahore.",
+    "A: Welche Sprachen sprechen Sie?",
+    "B: Ich spreche Urdu, Englisch und ein bisschen Deutsch.",
+    "A: Ich lerne auch Deutsch."
+  ],
+  "questions": [
+    {"t": "fill", "q": "Ich ___ Deutsch. (lernen)", "a": ["lerne"]},
+    {"t": "fill", "q": "Du ___ in einer Fabrik. (arbeiten)", "a": ["arbeitest"]},
+    {"t": "fill", "q": "Er ___ Englisch und Urdu. (sprechen)", "a": ["spricht"]},
+    {"t": "fill", "q": "Wir ___ aus Pakistan. (kommen)", "a": ["kommen"]},
+    {"t": "fill", "q": "Ihr ___ Cricket. (spielen)", "a": ["spielt"]},
+    {"t": "fill", "q": "Sie (formal) ___ Deutsch. (sprechen)", "a": ["sprechen"]},
+    {"t": "mc", "q": "er arbeit__ : which ending is correct?", "o": ["-t", "-et", "-st", "-en"], "a": 1, "e": "Stems ending in -t add an extra e: er arbeitet."},
+    {"t": "mc", "q": "Which word means doctor?", "o": ["der Koch", "der Arzt", "der Fahrer", "der Lehrer"], "a": 1},
+    {"t": "order", "q": "I am a teacher.", "a": ["Ich bin Lehrer."]},
+    {"t": "order", "q": "She is a doctor.", "a": ["Sie ist Ärztin."]},
+    {"t": "order", "q": "He speaks German and English.", "a": ["Er spricht Deutsch und Englisch."]},
+    {"t": "order", "q": "We learn German.", "a": ["Wir lernen Deutsch."]},
+    {"t": "order", "q": "Make a yes/no question: Du sprichst Deutsch.", "a": ["Sprichst du Deutsch?"]}
+  ]
+}

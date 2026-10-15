@@ -1,0 +1,67 @@
+{
+  "forms": [
+    {
+      "id": "A", "title": "Form A · Maria Lopez",
+      "text": "Hallo, mein Name ist Maria Lopez. Ich bin 28 Jahre alt und komme aus Spanien. Ich wohne in Köln, Hauptstraße 12. Ich bin Köchin. Meine Telefonnummer ist 0221 456 78 90. Ich spreche Spanisch und Englisch. Ich möchte einen Deutschkurs machen.",
+      "fields": [
+        {"l": "Nachname", "a": ["Lopez"]},
+        {"l": "Vorname", "a": ["Maria"]},
+        {"l": "Alter", "a": ["28"]},
+        {"l": "Land", "a": ["Spanien"]},
+        {"l": "Wohnort / Straße", "a": ["Köln, Hauptstraße 12", "Köln Hauptstraße 12"]},
+        {"l": "Beruf", "a": ["Köchin"]},
+        {"l": "Telefon", "a": ["0221 456 78 90"]},
+        {"l": "Sprachen", "a": ["Spanisch, Englisch", "Spanisch und Englisch", "Spanisch Englisch"]}
+      ]
+    },
+    {
+      "id": "B", "title": "Form B · Ahmed Raza",
+      "text": "Ich heiße Ahmed Raza. Ich bin 34 und komme aus Pakistan. Ich lebe seit einem Jahr in Berlin, Lindenweg 5. Ich arbeite als Fahrer. Ich habe zwei Kinder. Meine E-Mail ist ahmed.raza@mail.de. Ich suche eine Wohnung mit drei Zimmern.",
+      "fields": [
+        {"l": "Nachname", "a": ["Raza"]},
+        {"l": "Vorname", "a": ["Ahmed"]},
+        {"l": "Alter", "a": ["34"]},
+        {"l": "Land", "a": ["Pakistan"]},
+        {"l": "Wohnort / Straße", "a": ["Berlin, Lindenweg 5", "Berlin Lindenweg 5"]},
+        {"l": "Beruf", "a": ["Fahrer"]},
+        {"l": "Kinder", "a": ["2", "zwei"]},
+        {"l": "E-Mail", "a": ["ahmed.raza@mail.de"]},
+        {"l": "Sucht", "a": ["Wohnung mit drei Zimmern", "Wohnung mit 3 Zimmern", "eine Wohnung mit drei Zimmern"]}
+      ]
+    }
+  ],
+  "prompts": [
+    {"id": "p1", "title": "Visit a friend", "task": "Write to your friend Sara. You are visiting her on Friday.", "points": ["When do you arrive?", "How do you travel?", "What do you want to do?"], "model": "Hallo Sara, ich komme am Freitag um 17 Uhr an. Ich fahre mit dem Zug. Am Abend möchte ich mit dir essen gehen. Bis bald! Liebe Grüße, Ali"},
+    {"id": "p2", "title": "Ill: message to teacher", "task": "Write to your German teacher. You are ill and cannot come to class.", "points": ["Why can't you come?", "Ask about the homework.", "When will you come back?"], "model": "Sehr geehrter Herr Weber, ich bin krank und kann heute nicht zum Unterricht kommen. Was ist die Hausaufgabe? Am Donnerstag bin ich wieder da. Mit freundlichen Grüßen, Ali Khan"},
+    {"id": "p3", "title": "Ask a language school", "task": "Write to a language school. You want a German course.", "points": ["Ask the price.", "Ask the start date.", "Ask the time."], "model": "Sehr geehrte Damen und Herren, ich möchte einen Deutschkurs machen. Was kostet der Kurs? Wann beginnt er und um welche Uhrzeit? Vielen Dank. Mit freundlichen Grüßen, Ali Khan"},
+    {"id": "p4", "title": "Sorry to the neighbour", "task": "Write to your neighbour Frau Meier. Your party was too loud yesterday.", "points": ["Say sorry.", "Say when the party ends today.", "Invite her."], "model": "Liebe Frau Meier, es tut mir leid, die Musik war gestern zu laut. Die Party endet heute um 22 Uhr. Möchten Sie vorbeikommen? Viele Grüße, Ali Khan"},
+    {"id": "p5", "title": "New flat", "task": "Write to your friend Tom. You have a new flat.", "points": ["Say you have a new flat.", "Describe two rooms.", "Invite him for coffee on Sunday."], "model": "Hallo Tom, ich habe eine neue Wohnung! Es gibt ein Wohnzimmer und eine große Küche. Möchtest du am Sonntag um 15 Uhr zum Kaffee kommen? Liebe Grüße, Ali"},
+    {"id": "p6", "title": "Doctor's appointment", "task": "Write to a doctor's office. You are ill.", "points": ["Ask for an appointment next week.", "Say your problem.", "Suggest a day and time."], "model": "Sehr geehrte Damen und Herren, ich brauche einen Termin nächste Woche. Ich habe Kopfschmerzen und Fieber. Haben Sie am Dienstag um 9 Uhr Zeit? Mit freundlichen Grüßen, Ali Khan"}
+  ],
+  "examples": [
+    {"title": "Invitation (friend)", "task": "Invite Lisa to a party: When? Where? What should she bring?", "text": "Liebe Lisa, ich mache am Samstag um 19 Uhr eine Party bei mir zu Hause. Kannst du kommen? Bitte bring einen Salat und Getränke mit. Ich freue mich auf dich! Viele Grüße, Ali"},
+    {"title": "Cancel an appointment (formal)", "task": "Cancel Tuesday's appointment: reason? new date?", "text": "Sehr geehrte Frau Dr. Schmidt, ich kann am Dienstag nicht kommen, denn ich bin krank. Haben Sie am Donnerstag um 10 Uhr einen Termin frei? Vielen Dank. Mit freundlichen Grüßen, Ali Khan"},
+    {"title": "Ask for help (friend)", "task": "You move on Sunday. Ask Tom to help: When? What to do?", "text": "Hallo Tom, ich ziehe am Sonntag um. Hast du Zeit? Kannst du um 10 Uhr kommen und mir helfen? Ich koche für uns. Danke! Bis bald, Ali"}
+  ],
+  "frames": [
+    {"title": "Friend (informal)", "lines": ["Greeting: Liebe Anna, / Lieber Tom, / Hallo Anna,", "Opening: Wie geht's dir? Danke für deine Nachricht.", "Points 1-3: one clear sentence each.", "Closing line: Ich freue mich auf dich! / Bis bald! / Schreib mir bitte bald!", "Sign-off: Viele Grüße / Liebe Grüße, Dein Ali"]},
+    {"title": "Office or person you do not know (formal)", "lines": ["Greeting: Sehr geehrte Frau Schmidt, / Sehr geehrter Herr Müller, / Sehr geehrte Damen und Herren,", "Points 1-3 with Sie: Ich möchte ... Haben Sie ...? Können Sie mir ... sagen?", "Closing line: Vielen Dank für Ihre Hilfe.", "Sign-off: Mit freundlichen Grüßen, Ali Khan"]}
+  ],
+  "phrases": [
+    {"p": "Invite", "t": "Ich lade dich zu meiner Party ein. Möchtest du am Samstag kommen?"},
+    {"p": "Accept", "t": "Ich komme gern. Ich bringe einen Kuchen mit."},
+    {"p": "Decline", "t": "Leider kann ich nicht kommen. Ich muss arbeiten."},
+    {"p": "Ask for help", "t": "Kannst du mir bitte helfen? Hast du am Sonntag Zeit?"},
+    {"p": "Ask for information", "t": "Wann beginnt der Kurs? Was kostet der Kurs? Wo ist die Schule?"},
+    {"p": "Apologise", "t": "Es tut mir leid. Ich bin krank. Entschuldigung, ich komme später."},
+    {"p": "Make an appointment", "t": "Ich möchte einen Termin. Haben Sie am Dienstag um 10 Uhr Zeit?"},
+    {"p": "Time and place", "t": "am Montag um 18 Uhr, bei mir zu Hause, im Café, vor dem Kino"}
+  ],
+  "checklist": [
+    "Greeting and closing present?",
+    "All 3 content points covered, one sentence each?",
+    "Verb in position 2? Verb at the end after a modal?",
+    "Nouns capitalised? du/Sie used consistently?",
+    "Around 30 words (25-40 is safe)?"
+  ]
+}

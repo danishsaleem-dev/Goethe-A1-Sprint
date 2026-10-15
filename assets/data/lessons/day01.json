@@ -1,0 +1,31 @@
+{
+  "day": 1, "title": "Introductions", "group": 1,
+  "grammar": [
+    {"h": "sein (to be)", "t": "ich bin · du bist · er/sie/es ist\nwir sind · ihr seid · sie/Sie sind"},
+    {"h": "W-questions", "t": "Wie heißt du? · Woher kommst du? · Wo wohnst du?\nThe question word comes first, the verb is always second."},
+    {"h": "du or Sie?", "t": "Use du with friends and children. Use Sie with adults you do not know and with officials. Sie is always written with a capital S."}
+  ],
+  "dialogue": [
+    "A: Guten Tag! Ich bin Anna Weber. Wie heißen Sie?",
+    "B: Guten Tag, Frau Weber. Ich heiße Ali Khan.",
+    "A: Woher kommen Sie, Herr Khan?",
+    "B: Ich komme aus Pakistan. Ich wohne in Lahore.",
+    "A: Und wie geht es Ihnen?",
+    "B: Danke, gut. Und Ihnen?"
+  ],
+  "questions": [
+    {"t": "fill", "q": "Ich ___ Ali.", "a": ["bin"], "e": "ich bin"},
+    {"t": "fill", "q": "Du ___ aus Indien.", "a": ["bist"], "e": "du bist"},
+    {"t": "fill", "q": "Er ___ Lehrer.", "a": ["ist"], "e": "er ist"},
+    {"t": "fill", "q": "Wir ___ Freunde.", "a": ["sind"], "e": "wir sind"},
+    {"t": "fill", "q": "Ihr ___ müde.", "a": ["seid"], "e": "ihr seid"},
+    {"t": "fill", "q": "Sie (formal) ___ aus Deutschland.", "a": ["sind"], "e": "Sie sind"},
+    {"t": "mc", "q": "Wie heißt du?", "o": ["Ich wohne in Berlin.", "Ich komme aus Pakistan.", "Ich heiße Sara.", "Danke, gut."], "a": 2},
+    {"t": "mc", "q": "Woher kommst du?", "o": ["Ich wohne in Berlin.", "Ich komme aus Pakistan.", "Ich heiße Sara.", "Danke, gut."], "a": 1},
+    {"t": "mc", "q": "Wie geht's?", "o": ["Ich wohne in Berlin.", "Ich komme aus Pakistan.", "Ich heiße Sara.", "Danke, gut."], "a": 3},
+    {"t": "mc", "q": "Which greeting do you use in the evening?", "o": ["Guten Morgen", "Guten Abend", "Gute Nacht", "Tschüss"], "a": 1, "e": "Gute Nacht is only said when going to bed."},
+    {"t": "order", "q": "Where do you live? (informal)", "a": ["Wo wohnst du?"]},
+    {"t": "order", "q": "Where do you come from? (formal)", "a": ["Woher kommen Sie?"]},
+    {"t": "order", "q": "My name is Sara.", "a": ["Mein Name ist Sara."]}
+  ]
+}
